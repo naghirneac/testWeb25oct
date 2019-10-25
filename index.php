@@ -1,7 +1,7 @@
 <?php
 require_once 'vendor/vlucas/valitron/src/Valitron/Validator.php';
 $v = new Valitron\Validator($_POST);
-$v->rule('required', ['name', 'email', 'phone', 'age', 'pass', 'confirmPass', 'bdate']);
+$v->rule('required', ['name', 'email','pass', 'confirmPass']);
 $v->rule('lengthBetween', 'name', 3, 15);
 $v->rule('email', 'email');
 $v->rule('contains', 'phone', '+373');
