@@ -1,0 +1,14 @@
+{
+    "name": "vendor/test-web25.10",
+    "description": "lucrare web",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Naghirneac Ana",
+            "email": "anna.naghirneac98@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/valitron": "^1.4"
+    }
+}
